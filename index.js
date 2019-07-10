@@ -2,7 +2,7 @@
 const app = express();
 const bodyParser = require("body-parser");
 const cookieParser = require("cookie-parser");
-const session = require("express-session");
+// const session = require("express-session");
 const sqldb = require("./mysql");
 const cors = require("cors");
 const log4js = require("log4js");
